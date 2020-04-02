@@ -25,4 +25,5 @@ def galvenais():
 def galerija():
     return render_template('galerija.html')
 
-app.run()
+if __name__ == "__main__":
+  app.run()
