@@ -26,5 +26,5 @@ def galerija():
     return render_template('galerija.html')
 
 if __name__ == "__main__":
-  app.run()
+  app.run('0.0.0.0', port=8020)
 #app.run('0.0.0.0', port=8020)
