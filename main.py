@@ -1,14 +1,28 @@
 from flask import Flask, render_template, request
+app = Flask('/')
 
-app = Flask(__name__)
 
 @app.route('/')
 def home():
-  return render_template('chuska.html')
+    return render_template('galvenais.html')
+
 
 @app.route('/viens')
 def viens():
-  return render_template('viens.html')
+    return render_template('viens.html')
 
 
-app.run(host='0.0.0.0', port=8020)
+@app.route('/divi')
+def divi():
+    return render_template('divi.html')
+
+
+@app.route('/')
+def galvenais():
+    return render_template('galvenais.html')
+
+@app.route('/galerija')
+def galerija():
+    return render_template('galerija.html')
+
+app.run()
