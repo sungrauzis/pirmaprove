@@ -3,7 +3,7 @@ app = Flask('/')
 
 
 @app.route('/')
-def home():
+def galvenais():
     return render_template('galvenais.html')
 
 
@@ -17,9 +17,6 @@ def divi():
     return render_template('divi.html')
 
 
-@app.route('/')
-def galvenais():
-    return render_template('galvenais.html')
 
 @app.route('/galerija')
 def galerija():
