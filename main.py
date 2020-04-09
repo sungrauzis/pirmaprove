@@ -25,6 +25,10 @@ def galvenais():
 def galerija():
     return render_template('galerija.html')
 
+@app.route('/veidotaji')
+def galerija():
+    return render_template('veidotaji.html')
+
 if __name__ == "__main__":
   app.run(debug=True)
 #app.run('0.0.0.0', port=8020)
