@@ -26,7 +26,7 @@ def galerija():
     return render_template('galerija.html')
 
 @app.route('/veidotaji')
-def galerija():
+def veidotaji():
     return render_template('veidotaji.html')
 
 if __name__ == "__main__":
