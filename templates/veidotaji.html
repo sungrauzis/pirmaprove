@@ -4,7 +4,48 @@
   <link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/OwJSbxV.png" />
 
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	 crossorigin="anonymous">
+   crossorigin="anonymous">
+   
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
 
 </head>
 <body>
@@ -50,8 +91,12 @@
     <tr>
         <td>
 <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="https://i.imgur.com/wA1b24D.png" alt="Card image cap">
-    <div class="card-body">
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
       <h5 class="card-title">Klāvs Liparts</h5>
       <p class="card-text">Brauc ar mašīnu</p>
       <a href="https://www.facebook.com/klavs.liparts" class="btn btn-primary">Facebook</a>
