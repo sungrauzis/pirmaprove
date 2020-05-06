@@ -4,7 +4,7 @@ app = Flask('/')
 
 @app.route('/')
 def galvenais():
-    return render_template('galvenais.html')
+    return render_template('suni.html')
 
 
 @app.route('/viens')
@@ -19,7 +19,7 @@ def divi():
 
 @app.route('/galerija')
 def galerija():
-    return render_template('galerija.html')
+    return render_template('pile.html')
 
 
 @app.route('/veidotaji')
