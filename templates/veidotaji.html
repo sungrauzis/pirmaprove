@@ -1,7 +1,9 @@
 {% extends "galvenais.html" %}
 {% block saturs %}
 <head>
-  <title>Lapas veidotāji</title>
+  {% block title %}
+  <title>Veidotāji</title>
+  {% endblock %}
 </head>
 <style>
 .container {
@@ -85,6 +87,7 @@
 <div class="card-body">
       <h5 class="card-title">Klāvs Liparts</h5>
       <p class="card-text">Brauc ar mašīnu</p>
+      <p class="card-text">Mācās 12. klasē</p>
       <a href="https://www.facebook.com/klavs.liparts" class="btn btn-primary">Facebook</a>
     </div>
   </div>
@@ -103,6 +106,7 @@
     <div class="card-body">
       <h5 class="card-title">Kristers Krūms</h5>
       <p class="card-text">Brauc ar skrituļdēli</p>
+      <p class="card-text">Mācās 12. klasē</p>
       <a href="https://www.facebook.com/kristers.krums" class="btn btn-primary">Facebook</a>
     </div>
   </div>
