@@ -63,8 +63,8 @@ ul.chat {
   background: #fff;
   width: 16px;
   height: 16px;
-  border-top: 1px solid #f1f5fc;
-  border-left: 1px solid #f1f5fc;
+  border-top: 1px solid rgb(218, 140, 172);
+  border-left: 1px solid rgb(218, 140, 172);
   content: '';
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
