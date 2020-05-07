@@ -1,6 +1,6 @@
 const ATJAUNOT = 1000;
 const VERSIJA = "0.5"
-var vards = "Viesis"
+var vards = "Bobo"
 
 
 /*

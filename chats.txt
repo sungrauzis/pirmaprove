@@ -1,3 +1,4 @@
-{"vards": "Serveris", "zinja": "Sākam jaunu, skaistu dzīvi!"}
+{"vards": "Serveris", "zinja": "Labrīt!"}
 {"vards": "Viesis", "zinja": "yoioo"}
 {"vards": "Viesis", "zinja": "wasop"}
+{"vards": "Viesis", "zinja": "a"}
