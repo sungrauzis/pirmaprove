@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request
+from flask import Flask, json, jsonify, render_template, request
+import chats
 app = Flask('/')
 
 
@@ -26,6 +27,23 @@ def parmums():
 def about():
     return render_template('aboutpage.html')
 
+@app.route('/chat')
+def index_lapa():
+  return render_template('chats.html')
+
+
+@app.route('/chats/lasi')
+def ielasit_chatu():
+  return chats.lasi()
+
+
+@app.route('/chats/suuti', methods=['POST'])
+def suutiit_zinju():
+  dati = request.json
+  
+  chats.pieraksti_zinju(dati)
+
+  return chats.lasi()
 if __name__ == "__main__":
   app.run(debug=True)
 #app.run('0.0.0.0', port=8020)
