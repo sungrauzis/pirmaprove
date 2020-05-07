@@ -2,3 +2,4 @@
 {"vards": "Viesis", "zinja": "yoioo"}
 {"vards": "Viesis", "zinja": "wasop"}
 {"vards": "Viesis", "zinja": "a"}
+{"vards": "Bobo", "zinja": "j\u016bgens"}
