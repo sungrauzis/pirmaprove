@@ -7,16 +7,6 @@ def galvenais():
     return render_template('suni.html')
 
 
-@app.route('/viens')
-def viens():
-    return render_template('viens.html')
-
-
-@app.route('/divi')
-def divi():
-    return render_template('divi.html')
-
-
 @app.route('/galerija')
 def galerija():
     return render_template('pile.html')
@@ -31,6 +21,10 @@ def veidotaji():
 def parmums():
     return render_template('parmums.html')
 
+
+@app.route('/about')
+def about():
+    return render_template('aboutpage.html')
 
 if __name__ == "__main__":
   app.run(debug=True)
