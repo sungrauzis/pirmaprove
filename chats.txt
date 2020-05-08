@@ -1,5 +1,1 @@
 {"vards": "Serveris", "zinja": "Labrīt!"}
-{"vards": "Viesis", "zinja": "yoioo"}
-{"vards": "Viesis", "zinja": "wasop"}
-{"vards": "Viesis", "zinja": "a"}
-{"vards": "Viesis", "zinja": "neiet :("}
